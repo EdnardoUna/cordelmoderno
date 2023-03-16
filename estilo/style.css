@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: darkgray;
+}
+
+header {
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 50px;
+
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: Sriracha, cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
