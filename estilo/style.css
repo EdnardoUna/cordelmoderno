@@ -1,5 +1,5 @@
-@charset 'UTF-8';
-
+@charset "UTF-8";
+/* o valor do charset fica entre aspas duplas */
 * {
     margin: 0px;
     padding: 0px;
